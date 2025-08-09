@@ -3,12 +3,12 @@
 using namespace std;
 
 int main() {
-    int arr[100], n = 0, choice, pos, val, key, i;
+    int arr[100], n = 0, option, pos, val, key, i;
     while (true) {
         cout << "\n CREATE\n DISPLAY\n INSERT\n DELETE\n LINEAR SEARCH\n EXIT\n";
-        cin >> choice;
-        if (choice == 6) break;
-        switch (choice) {
+        cin >> option;
+        if (option == 6) break;
+        switch (option) {
             case 1:
                 cout << "Enter size: ";
                 cin >> n;
@@ -164,6 +164,7 @@ int main() {
     }
     return 0;
 }
+
 
 
 
